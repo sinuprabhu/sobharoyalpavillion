@@ -1,3 +1,7 @@
+---
+title: CSS stylesheet
+---
+
 .navbar {
   min-height: 100px;
 }
@@ -11,12 +15,12 @@
   margin-top: 100px;
 }
 #home-banner {
-	background: transparent url('/assets/sobharoyalpavilion/images/banner.jpg') no-repeat left center !important;
+	background: transparent url('{{ site.baseurl }}/assets/sobharoyalpavilion/images/banner.jpg') no-repeat left center !important;
 	background-size: auto;
 }
 
 #amenities-banner {
-  background: transparent url('/assets/sobharoyalpavilion/images/ameneties/amenities-bg.png') no-repeat left top !important;  
+  background: transparent url('{{ site.baseurl }}/assets/sobharoyalpavilion/images/ameneties/amenities-bg.png') no-repeat left top !important;  
   background-size: auto;  
 }
 
