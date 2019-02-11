@@ -1,0 +1,47 @@
+.navbar {
+  min-height: 100px;
+}
+
+.navbar-brand {
+  /*padding: 0 15px;*/
+  height: 100px;
+  /*line-height: 80px;*/
+}
+#wrapper {
+  margin-top: 100px;
+}
+#home-banner {
+	background: transparent url('/assets/images/banner.jpg') no-repeat left top !important;
+	background-size: cover;
+}
+
+#amenities-banner {
+  background: transparent url('/assets/images/ameneties/amenities-bg.png') no-repeat left top !important;  
+  background-size: auto;  
+}
+
+:target {
+  display: block;
+  position: relative;
+  top: -100px; 
+  visibility: hidden;
+}
+/*.container-fluid{
+  section:before {
+    height: 80px;
+    content: "";
+    display:block;
+  }
+ }*/
+
+ .navbar-nav a{
+/*    color: white !important;
+*/    
+  font-size: 1rem !important;
+  font-weight: bold;
+}
+ .footer {
+ a {
+ color: white;
+ }
+ }

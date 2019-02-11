@@ -1,0 +1,16 @@
+# Site settings
+title: 
+email:
+author:
+description: "Sobha Rajvilas, new luxurious apartments by Sobha Limited located in Rajaji Nagar, Bangalore. Find details like Sobha Rajvilas Price, Location & Floor Plan"
+url: http://sobharajvilas.org.in/
+# baseurl: /sobharajvilas
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Build settings
+permalink: :title/
+sass:
+  sass_dir: /assets/css
