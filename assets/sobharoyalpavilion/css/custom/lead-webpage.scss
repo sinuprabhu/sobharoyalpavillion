@@ -1,6 +1,4 @@
----
-title: CSS stylesheet
----
+
 
 .navbar {
   min-height: 100px;
@@ -12,18 +10,50 @@ title: CSS stylesheet
   /*line-height: 80px;*/
 }
 #wrapper {
-  margin-top: 100px;
+  /*margin-top: 100px;*/
 }
 #home-banner {
-	background: transparent url('{{ site.baseurl }}/assets/sobharoyalpavilion/images/banner.jpg') no-repeat left center !important;
+	background: transparent url('/assets/sobharoyalpavilion/images/banner.jpg') no-repeat left center !important;
 	background-size: auto;
+  background-image: url('/assets/sobharoyalpavilion/images/banner.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 0;
+  padding-top: 65%; /* (img-height / img-width * width) */
+              /* (853 / 1280 * 100) */
 }
 
+.imageContainer {
+  width:100%; 
+  height: auto; 
+  background-image: url('/assets/sobharoyalpavilion/images/banner.jpg');
+  padding-top: 65%;
+
+ 
+}
+
+.inner-div {
+  position: absolute;
+}
+/*#logo-container {
+    width: 50px;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    position: relative;
+    background-color: red;
+}*/
 #amenities-banner {
-  background: transparent url('{{ site.baseurl }}/assets/sobharoyalpavilion/images/ameneties/amenities-bg.png') no-repeat left top !important;  
-  background-size: auto;  
+  background-color: rgb(243,223,145); 
+
+  /*background: transparent url('/assets/sobharoyalpavilion/images/ameneties/amenities-bg.png') no-repeat left top !important;  */
+  /*background-size: auto;  */
 }
 
+.text-yellow {
+  color:  rgb(243,223,145);
+}
 :target {
   display: block;
   position: relative;
