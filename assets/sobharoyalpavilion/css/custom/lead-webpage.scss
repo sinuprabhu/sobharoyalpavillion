@@ -23,10 +23,13 @@
   padding-top: 65%; /* (img-height / img-width * width) */
               /* (853 / 1280 * 100) */
 
-              /*//smartphone portrait*/
-@media screen /*and (min-width: 320px)*/
-and (max-width: 479px) {
-padding-top: 100%;
+              /*//smartphone portrait*//*and (min-width: 320px)*/
+
+@media screen and (min-width: 331px) and (max-width: 479px) {
+  padding-top: 130%;
+}
+@media screen and (max-width: 330px)  {
+padding-top: 150%;
 }
 }
 
@@ -34,13 +37,16 @@ padding-top: 100%;
 
 @media only screen and (min-width : 1200px) {
 
- margin-top: -400px !important;
+ margin-top: -1000px !important;
 
 }
 
 /*//tablet landscape*/
-@media screen and (min-width: 1024px) and (max-width: 1600px)  {
-margin-top: -600px !important;
+@media screen and (min-width: 1440px) and (max-width: 1600px)  {
+margin-top: -650px !important;
+}/*//tablet portrait*/
+@media screen and (min-width: 1024px) and (max-width: 1439px)  {
+margin-top: -450px !important;
 }/*//tablet portrait*/
 @media screen and (min-width: 768px) and (max-width: 1023px)  {
 margin-top: -350px !important;
@@ -53,13 +59,15 @@ margin-top: -320px !important;
 }
 
 /*//smartphone portrait*/
-@media screen /*and (min-width: 320px)*/
-and (max-width: 479px) {
+@media screen and (min-width: 331px) and (max-width: 479px) {
 margin-top: -300px !important;
 }
-
+@media screen and (max-width: 330px)  {
+margin-top: -280px !important;
+}
 
 }
+
 .imageContainer {
   width:100%; 
   height: auto; 
