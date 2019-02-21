@@ -22,6 +22,12 @@
   height: 0;
   padding-top: 65%; /* (img-height / img-width * width) */
               /* (853 / 1280 * 100) */
+
+              /*//smartphone portrait*/
+@media screen /*and (min-width: 320px)*/
+and (max-width: 479px) {
+padding-top: 100%;
+}
 }
 
 .formContainer {
@@ -49,7 +55,7 @@ margin-top: -320px !important;
 /*//smartphone portrait*/
 @media screen /*and (min-width: 320px)*/
 and (max-width: 479px) {
-margin-top: -10px !important;
+margin-top: -300px !important;
 }
 
 
