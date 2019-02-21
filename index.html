@@ -7,10 +7,57 @@ layout: default
   <section class="banner-section">
     <div class="col-12">
       <div class="container " id="home-banner"> 
-        <!-- <div class="row">
-          <p> Live in RAJASTHAN</p>        
-        </div> -->
-         
+        <div class="row p-0 m-0 formContainer">
+            <div class="col-lg-8 col-md-6">
+            </div>
+            <div class="col-lg-4 col-md-6 align-center  contact-form bg-warning">
+              <div class="row p-0 m-0">
+                <div class="alert alert-success alert-dismissible mt-2 d-none success-alert">
+                   <button type="button" class="close" data-dismiss="alert">&times;</button>
+                  <strong>Thank You!</strong> We will get back to you soon.
+                </div>
+              </div>
+              <div class="row p-0 m-0 ">
+                <form class="align-center w-100" action="https://getsimpleform.com/messages?form_api_token=818b7f1671ca9b6b519964de96c89e6b" method="post">
+                  <p  class="mt-3"> Please fill your details:</p>
+                    <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+                    <input type='hidden' name='redirect_to' value='{{ site.baseurl }}/?message=thankyou' />
+
+                    <div class="form-row text-center">
+                      <div class="col-12">
+                        <input type='text' class = "px-1 mb-2" name='Name' required placeholder="Name *"/>
+                      </div>
+                    </div>
+                    <div class="form-row text-center">
+                      <div class="col-12">
+                        <input type="email" class = "px-1 mb-2" name='Email' required placeholder="Email *"/>
+                      </div>
+                    </div>
+                    <div class="form-row text-center">
+                      <div class="col-12">
+                        <input type='text' class = "px-1 mb-2" name='Phone' required placeholder="Phone number *" />
+                      </div>
+                    </div>
+                    <div class="form-row  text-center">
+                      <div class="col-12">
+                        <input type='text' class = "px-1 mb-2" name='comment'  placeholder="Description" />
+                      </div>
+                    </div>
+                    <div class="form-row text-center">
+                      <div class="col-12">
+                        <input type='submit' class="btn btn-primary contact-submit" value='SUBMIT' />
+                      </div>
+                    </div>
+                    <div class="row text-center">
+                      <div class="col-12">                    <span>OR</span></div>
+                    </div>
+                    <div class="row text-center mb-3">
+                      <div class="col-12">                    <span>Call us +91 9845290699</span></div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+         </div>
       </div>
     </div>
   </section>
@@ -297,19 +344,19 @@ layout: default
           <div class="heading text-center text-yellow pt-4">
             <h2>Floor Plan</h2>
           </div>
-          <div class="col p-0 text-yellow"><small>4BHK- XXXX SFT</small>
+          <div class="col p-0 text-yellow"><small>4BHK- 2300 SFT</small>
           <div class="row">
             <div class="col p-0 text-center">
               <img src="{{ site.baseurl }}/assets/sobharoyalpavilion/images/floorplans/4-BHK.jpg"  class=" img-fluid" alt="4 BHK floor plan" aria-hidden="true"></img>
             </div>
           </div>
-          <div class="col pt-4 text-yellow"><small>3BHK - XXXX SFT</small>
+          <div class="col pt-4 text-yellow"><small>3BHK - 1865 SFT</small>
           <div class="row">
             <div class="col text-center">
               <img src="{{ site.baseurl }}/assets/sobharoyalpavilion/images/floorplans/3-BHK.jpg"  class=" img-fluid" alt="3 BHK floor plan" aria-hidden="true"></img>
             </div>
           </div>
-          <div class="col pt-4 text-yellow"><small>3BHK - XXXX SFT</small>
+          <div class="col pt-4 text-yellow"><small>3BHK - 1560 SFT</small>
           <div class="row">
             <div class="col p-0 text-center">
               <img src="{{ site.baseurl }}/assets/sobharoyalpavilion/images/floorplans/3-BHK-1.jpg"  class=" img-fluid" alt="3 BHK floor plan" aria-hidden="true"></img>
@@ -371,7 +418,7 @@ layout: default
             <form class="" action="https://getsimpleform.com/messages?form_api_token=818b7f1671ca9b6b519964de96c89e6b" method="post">
                 <p  class="mt-3 text-center"> Please fill your details:</p>
                   <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-                  <input type='hidden' name='redirect_to' value='https://sinuprabhu.github.io/sobharoyalpavillion/?message=thankyou' />
+                  <input type='hidden' name='redirect_to' value='{{ site.baseurl }}/sobharoyalpavillion/?message=thankyou' />
 
                   <div class="form-row text-center">
                     <div class="col-12">
