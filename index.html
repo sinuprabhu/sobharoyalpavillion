@@ -3,25 +3,33 @@ layout: default
 ---
 
 <div class="container-fluid">
-
   <section class="banner-section">
-    <div class="col-12">
-      <div class="container " id="home-banner"> 
-        <div class="row p-0 m-0 formContainer">
+    <div class="row">
+      <div class="col-md-4 bg-dark">
+        <div class="container text-center">
+          <h4 class="text-yellow pt-5">PRE-LAUNCHING</h4>
+          
+          <p class="text-white"> LIVE IN RAJASTHAN, <br>WORK IN BENGALURU.</p>
+          <p class="text-white"> RAJASTHAN-THEMED 2,3 & 4 <br> BED LUXURY APARTMENTS IN <br>SARJAPUR ROAD </p>
+        </div>
+      </div>
+      <div class="col-md-8 p-0">
+        <div class="container-fluid" id="home-banner">
+          <div class="row">
             <div class="col-lg-8 col-md-6">
             </div>
-            <div class="col-lg-4 col-md-6 align-center  contact-form bg-warning">
+            <div class="col-lg-4 col-md-6 align-center contact-form bg-warning">
               <div class="row p-0 m-0">
                 <div class="alert alert-success alert-dismissible mt-2 d-none success-alert">
                    <button type="button" class="close" data-dismiss="alert">&times;</button>
                   <strong>Thank You!</strong> We will get back to you soon.
                 </div>
               </div>
-              <div class="row p-0 m-0 ">
+              <div class="row p-0 m-0">
                 <form class="align-center w-100" action="https://getsimpleform.com/messages?form_api_token=818b7f1671ca9b6b519964de96c89e6b" method="post">
                   <p  class="mt-3"> Please fill your details:</p>
                     <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
-                    <input type='hidden' name='redirect_to' value='{{ site.baseurl }}/?message=thankyou' />
+                    <input type='hidden' name='redirect_to' value='http://sobharajvilas.org.in/?message=thankyou' />
 
                     <div class="form-row text-center">
                       <div class="col-12">
@@ -57,10 +65,12 @@ layout: default
                   </form>
                 </div>
               </div>
-         </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
+ 
       <a id='overview'></a>
       <section class="overview-section mt-4">
         <div class="container anchor">
